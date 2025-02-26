@@ -16,8 +16,5 @@ jobs:
         run: |
           pip install nbconvert jupyter wandb numpy pandas scikit-learn opencv-python matplotlib scipy
 
-      - name: Convert Jupyter Notebook to Python
-        run: jupyter nbconvert --to script RhythmLab5.ipynb
-
       - name: Run Converted Script
         run: python RhythmLab5.py
