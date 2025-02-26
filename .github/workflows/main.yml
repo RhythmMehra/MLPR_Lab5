@@ -7,14 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-          
+
       - name: Install dependencies
         run: |
           pip install nbconvert jupyter wandb numpy pandas scikit-learn opencv-python matplotlib scipy
 
       - name: Run Converted Script
+        working-directory: ${{ github.workspace }}
         run: python RhythmLab5.py
