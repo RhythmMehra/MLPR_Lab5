@@ -17,17 +17,12 @@
 - **Customer Segmentation**: Grouping customers with similar buying behaviors.
 
 ## 3. Explanation of Various Distance Metrics
-- **Euclidean Distance**:  
-  \[ d = \sqrt{\sum (x_i - y_i)^2} \]
-- **Manhattan Distance**:  
-  \[ d = \sum |x_i - y_i| \]
-- **Minkowski Distance**:  
-  \[ d = \left(\sum |x_i - y_i|^p
-ight)^{1/p} \]
-- **Cosine Similarity**:  
-  \[ \cos(	heta) = rac{A \cdot B}{||A|| \cdot ||B||} \]
-- **Mahalanobis Distance**:  
-  \[ d = \sqrt{(X - \mu)^T S^{-1} (X - \mu)} \]
+
+- Euclidean Distance: d = sqrt(sum (xi - yi)^2)
+- Manhattan Distance: d = sum |xi - yi|
+- Minkowski Distance: d = (sum |xi - yi|^p)^(1/p)
+- Cosine Similarity: cos(theta) = (A . B) / (||A|| * ||B||)
+- Mahalanobis Distance: d = sqrt((X - mu)^T S^(-1) (X - mu))
 
 ## 4. Role of Cross Validation in Model Performance
 Cross-validation aids in assessing a model's generalizability by repeatedly dividing data into training and validation sets. It ensures that the model performs effectively on unseen data and prevents overfitting. Common techniques include:
