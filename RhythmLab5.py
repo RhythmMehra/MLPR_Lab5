@@ -10,7 +10,7 @@ wandb.login(key="0b07b231f0ded66169038bc9fe81c2e3fb2c8adb")
 wandb.init(project="my-awesome-project")
 
 # Reading the image plaksha_Faculty.jpg
-img = cv2.imread("plaksha_Faculty.jpg")
+img = cv2.imread("Plaksha_Faculty.jpg")
 
 # Convert the image to grayscale
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
