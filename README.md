@@ -22,9 +22,10 @@
 - **Manhattan Distance**:  
   \[ d = \sum |x_i - y_i| \]
 - **Minkowski Distance**:  
-  \[ d = \left(\sum |x_i - y_i|^p\right)^{1/p} \]
+  \[ d = \left(\sum |x_i - y_i|^p
+ight)^{1/p} \]
 - **Cosine Similarity**:  
-  \[ \cos(\theta) = \frac{A \cdot B}{||A|| \cdot ||B||} \]
+  \[ \cos(	heta) = rac{A \cdot B}{||A|| \cdot ||B||} \]
 - **Mahalanobis Distance**:  
   \[ d = \sqrt{(X - \mu)^T S^{-1} (X - \mu)} \]
 
