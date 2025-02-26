@@ -1,0 +1,44 @@
+{
+  "os":  "macOS-13.3-arm64-arm-64bit",
+  "python":  "CPython 3.11.4",
+  "startedAt":  "2025-02-26T17:05:27.479785Z",
+  "program":  "/Users/rhythmmehra/Documents/GitHub/MLPR_Lab5/MLPR_Lab5/RhythmLab5.ipynb",
+  "codePath":  "RhythmLab5.ipynb",
+  "git":  {
+    "remote":  "https://github.com/RhythmMehra/MLPR_Lab5",
+    "commit":  "0fc654f468d3e44063c6059229c646f839e0f1bf"
+  },
+  "email":  "rhythm.mehra.ug23@plaksha.edu.in",
+  "root":  "/Users/rhythmmehra/Documents/GitHub/MLPR_Lab5/MLPR_Lab5",
+  "host":  "Rhythms-MacBook-Pro.local",
+  "executable":  "/Users/rhythmmehra/anaconda3/bin/python",
+  "codePathLocal":  "RhythmLab5.ipynb",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "243589357568"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "494384795648",
+      "used":  "243589357568"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  10,
+    "countLogical":  10
+  },
+  "apple":  {
+    "name":  "Apple M2 Pro",
+    "ecpuCores":  4,
+    "pcpuCores":  6,
+    "gpuCores":  16,
+    "memoryGb":  16,
+    "swapTotalBytes":  "5368709120",
+    "ramTotalBytes":  "17179869184"
+  }
+}
